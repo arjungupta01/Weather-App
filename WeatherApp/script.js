@@ -26,11 +26,14 @@ async function checkWeather(city) {
         case "Clouds":
           weatherIcon.src = "images/clouds.png";
           break;
-        case "Clear":
+        case "Clear ":
           weatherIcon.src = "images/clear.png";
           break;
         case "Rain":
           weatherIcon.src = "images/rain.png";
+          break;
+        case "Haze":
+          weatherIcon.src = "images/haze.png";
           break;
         case "Drizzle":
           weatherIcon.src = "images/drizzle.png";
